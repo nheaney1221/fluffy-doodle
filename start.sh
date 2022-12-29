@@ -10,8 +10,8 @@ echo -e $DOWNLOADS >> downloads.sh
 bash downloads.sh &> /dev/null
 wget $MISCDOWNLOADS &> /dev/null
 sudo apt-get install lbzip2 -y
-tar xfv $EXTRACT1 
-tar xfv $EXTRACT2
+tar -xf $EXTRACT1 
+tar -xf $EXTRACT2
 echo -e $CLI >> cli.sh
 bash cli.sh &> /dev/null
 echo -e $DIS >> dis.sh
