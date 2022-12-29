@@ -10,7 +10,7 @@ echo -e $DOWNLOADS >> downloads.sh
 bash downloads.sh &> /dev/null
 wget $MISCDOWNLOADS &> /dev/null
 tar xfv $EXTRACT1 
-unzip $EXTRACT2
+tar xfv $EXTRACT2
 echo -e $CLI >> cli.sh
 bash cli.sh &> /dev/null
 echo -e $DIS >> dis.sh
