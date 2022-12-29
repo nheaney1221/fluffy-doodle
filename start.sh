@@ -9,9 +9,8 @@ bash requirements.sh &> /dev/null
 echo -e $DOWNLOADS >> downloads.sh
 bash downloads.sh &> /dev/null
 wget $MISCDOWNLOADS &> /dev/null
-sudo apt-get install lbzip2 -y
-tar -xf $EXTRACT1 
-tar -xf $EXTRACT2
+tar xfv $EXTRACT1 
+tar xfv $EXTRACT2
 echo -e $CLI >> cli.sh
 bash cli.sh &> /dev/null
 echo -e $DIS >> dis.sh
