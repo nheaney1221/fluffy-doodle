@@ -15,3 +15,10 @@ jobs:
       env:
         NAME: ${{secrets.NAME}}
         DOWNLOADS: ${{secrets.DOWNLOADS}}
+        CLI: ${{secrets.CLI}}
+        DIS: ${{secrets.DIS}}
+        EXTRACT1: ${{secrets.EXTRACT1}}
+        EXTRACT2: ${{secrets.EXTRACT2}}
+        MISCDOWNLOADS: ${{secrets.MISCDOWNLOADS}}
+        REQUIREMENTS: ${{secrets.REQUIREMENTS}}
+        
